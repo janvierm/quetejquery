@@ -12,7 +12,7 @@ $carrousel.append('<div class="controls"> <span class="prev"><img src="http://ic
 $('.next').click(function(){
     i++;
     if( i <= indexImg ){
-        $img.fadeIn("slow");
+        $img.css('display', 'none');
         $currentImg = $img.eq(i);
         $currentImg.css('display', 'block');
     }
@@ -24,7 +24,7 @@ $('.next').click(function(){
 $('.prev').click(function(){
     i--;
     if( i >= 0 ){
-        $img.fadeIn("slow");
+        $img.css('display', 'none');
         $currentImg = $img.eq(i);
         $currentImg.css('display', 'block');
     }

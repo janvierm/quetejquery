@@ -1,0 +1,51 @@
+#carrousel{
+    position:relative;
+    height:200px;
+    width:700px;
+    margin:auto;
+}
+
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+    list-style: none;
+}
+
+.controls {
+  background-color: #F1F1F1;
+  height: 100px;
+  width: 100px;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  background-color: #F1F1F1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #000;
+}
+
+.next {
+  position: absolute;
+  right: -100px;
+  top: 60%;
+  background-color: #F1F1F1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #000;
+}
+
+.prev:hover, .next:hover {
+  cursor: pointer;
+}
